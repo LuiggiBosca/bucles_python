@@ -70,6 +70,8 @@ def bucle_for():
     # en los índices pares (0, 2, 4) se encuentran los nombres de los contactos
     # y en los índices impares (1, 3, 5) los números de los contacto
     # Es una lista mezclada de strings y números
+    # Consulta: este bucle no deberia tener un break? para que salte al bucle 
+    # siguiente y no termine abruptamente?
     agenda = ['Claudia', 123, 'Roberto', 456, 'Inove', 789]
     agenda_len = len(agenda)
 
@@ -190,8 +192,8 @@ def buscar_max():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    bucle_while()
-    bucle_for()
-    contador()
-    sumatoria()
-    buscar_max()
+    #bucle_while()
+    #bucle_for()
+    #contador()
+    #sumatoria()
+    #buscar_max()
